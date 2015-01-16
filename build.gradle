@@ -40,11 +40,11 @@ android {
 }
 
 dependencies {
-    compile project(':colorpicker')
+    //compile project(':colorpicker')
     compile 'com.github.blackfizz:eazegraph:1.2.0@aar'
     compile 'com.nineoldandroids:library:2.4.0'
     compile 'com.google.android.gms:play-services:6.1.+'
-    compile files('../libs/dashclock-api-r2.0.jar')
+   // compile files('../libs/dashclock-api-r2.0.jar')
 }
 
 def props = new Properties()
